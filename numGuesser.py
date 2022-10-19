@@ -1,6 +1,6 @@
 from flask import Flask, flash, request, render_template
 
-MIN_VALUE = 0
+MIN_VALUE = 1
 MAX_VALUE = 10000000000
 
 app = Flask(__name__)

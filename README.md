@@ -1,7 +1,7 @@
 # numGuesser
 This is a Python WebApp template with Flask + Bootstrap.
 
-numGuesser request a value between 0 - 10000000000 and the app guesses the number asking if it's the correct number or, otherwise, if it's higher or lower.
+numGuesser request a value between MIN_VALUE(1) - MAX_VALUE(10^10). This numbers can be changed to any number, and the app guesses the number asking if it's the correct number or, otherwise, if it's higher or lower.
 
 It uses: 
 - Python 3.8.10 
